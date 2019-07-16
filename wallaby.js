@@ -11,8 +11,7 @@ module.exports = function(wallaby) {
     tests: ['src/**/*.test.ts?(x)'],
 
     env: {
-      type: 'node',
-      runner: 'node'
+      type: 'node'
     },
 
     preprocessors: {
